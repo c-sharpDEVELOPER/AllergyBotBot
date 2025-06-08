@@ -120,6 +120,8 @@ internal class Program
             if (update.Type != UpdateType.Message || update.Message?.Text == null || update.Message.From == null)
                 return;
 
+            await client.ReceiveAsync();
+
             switch (update.Message?.Text)
             {
 
