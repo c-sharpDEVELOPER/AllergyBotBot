@@ -60,7 +60,7 @@ internal class Program
     private static void Main()
     {
 
-        Host g4bot = new Host("8054474965:AAH_ApoHATaXwgQS5gnzBbBFlu8Ct8xw1us");
+        Host g4bot = new Host("8054474965:AAFaeGiAGNTjf8qXSyDJmfhZkjVvqvYhWCg");
         g4bot.Start();
         g4bot.OnMessage += OnMessage;
         Console.ReadLine();
