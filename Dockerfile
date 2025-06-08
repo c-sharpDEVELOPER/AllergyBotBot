@@ -10,4 +10,4 @@ WORKDIR /app
 
 COPY --from=build /app/publish .
 
-ENTRYPOINT ["dotnet", "AllergyBot.dll"]
+ENTRYPOINT ["dotnet", "AllergyBotBotNew.dll"]
