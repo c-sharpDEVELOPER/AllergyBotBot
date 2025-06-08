@@ -639,7 +639,7 @@ internal class Program
             {
                 await client.SendTextMessageAsync(update.Message?.Chat.Id ?? 7062178966, "текущее обновление: 3.8 omega");
                 await client.SendTextMessageAsync(update.Message?.Chat.Id ?? 7062178966, "Telegram.Bot - 19.0.0 ver.", replyToMessageId: update.Message?.MessageId);
-                await client.SendTextMessageAsync(update.Message?.Chat.Id ?? 7062178966, "net 9.0\nnet framework - 4.8 ver.\n  lang of programming - c#", replyToMessageId: update.Message?.MessageId);
+                await client.SendTextMessageAsync(update.Message?.Chat.Id ?? 7062178966, "net 6.0\nnet framework - 4.8 ver.\n  lang of programming - c#", replyToMessageId: update.Message?.MessageId);
             }
             else if (update.Message?.Text == "/tochat" || update.Message?.Text == "/tochat")
             {
