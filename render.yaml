@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: allergy-bot
-    env: docker
-    plan: free
-    region: frankfurt
-    autoDeploy: true
